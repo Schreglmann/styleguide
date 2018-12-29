@@ -29,9 +29,7 @@ host('root@37.120.187.53')
 
 // Composer
 set('composer_action', false);
-
-set('ssh_multiplexing', false);
-    
+  
 
 // Tasks
 
