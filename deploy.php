@@ -7,7 +7,7 @@ require 'recipe/common.php';
 set('application', 'styleguide');
 
 // Project repository
-set('repository', 'https://github.com/Schreglmann/deployment_test.git');
+set('repository', 'https://github.com/Schreglmann/styleguide');
 
 // [Optional] Allocate tty for git clone. Default value is false.
 set('git_tty', false); 
