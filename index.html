@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <title>Styleguide musicr</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="prismjs/prismjs.css" rel="stylesheet" />
     </head>
     <body>
 <div id="ueberschrift">
@@ -38,16 +39,15 @@
         <div class="card">
           <h4>Gradient</h4>
           <p>The gradient is used as background of several elements and is as well used in the main background of the app
-<br><br>
-                <code>
-                element{<br>
-                    &emsp;background: linear-gradient(<br>
-                    &emsp;&emsp;   20deg,<br>
-                    &emsp;&emsp;#051535,<br>
-                    &emsp;&emsp;#002255<br>
-                    &emsp;)<br>
-                }
-            </code>
+<br>
+<pre><code class="language-css">element{
+    background: linear-gradient(
+        20deg,
+        #051535,
+        #002255
+    );
+}
+            </code></pre>
                 </p>
           
         </div>
@@ -192,25 +192,19 @@
       </div>
 
       <div class="card-container">
-            <div class="overlay"></div>
-            <div class="overlay"></div>
-            <div class="overlay"></div>
-            <div class="overlay"></div>
+
             <div class="card">
-              <h4>Main Background Source Code</h4>
-              <p>
-                    <code>
-                            element{<br>
-                                background: <br>
-                                  no-repeat center/cover url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2717.4 1905.8'%3E%3Cg data-name='Ebene 2'%3E%3Cpath fill='none' stroke='%23182fc4' stroke-miterlimit='10' stroke-width='400' d='M2517.4 1905.8V586.2a386.2 386.2 0 1 0-772.5 0V1143a386.2 386.2 0 1 1-772.4 0V1013a386.2 386.2 0 1 0-772.5 0v892.8' opacity='.05'/%3E%3C/g%3E%3C/svg%3E"),<br>
-                                linear-gradient(
-                                20deg,
-                                #051535,
-                                #002255
-                                );<br>
-                            }
-                        </code>
-              </p>
+              <h4>Main Background Source Code</h4><p></p>
+                <pre id="code_long"><code class="language-css">element{
+    background:
+    no-repeat center/cover url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2717.4 1905.8'%3E%3Cg data-name='Ebene 2'%3E%3Cpath fill='none' stroke='%23182fc4' stroke-miterlimit='10' stroke-width='400' d='M2517.4 1905.8V586.2a386.2 386.2 0 1 0-772.5 0V1143a386.2 386.2 0 1 1-772.4 0V1013a386.2 386.2 0 1 0-772.5 0v892.8' opacity='.05'/%3E%3C/g%3E%3C/svg%3E"),<br>
+    linear-gradient(
+        20deg,
+        #051535,
+        #002255
+    );
+}
+                </code></pre>
             </div>
           </div>
       
@@ -254,5 +248,6 @@
     </div>
     
   </div>
+  <script src="prismjs/prismjs.js"></script>
 </body>
 </html>
