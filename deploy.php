@@ -23,8 +23,8 @@ set('allow_anonymous_stats', false);
 
 // Hosts
 
-host('root@37.120.187.53')
-    ->set('deploy_path', '/var/www/{{application}}');    
+host('georg@37.120.187.53')
+    ->set('deploy_path', '/home/georg/sites/{{application}}');    
 
 
 // Composer
