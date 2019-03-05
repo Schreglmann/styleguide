@@ -39,6 +39,20 @@ margin:0 auto;
 margin-bottom:20px;
 }
 
+.flex{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flex img{
+  width:10%;
+}
+
+a{
+  color:white;
+}
+
 .color_flex{
     display:flex;
     width:100%;
